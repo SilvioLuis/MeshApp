@@ -1,0 +1,176 @@
+header {
+	background: #f90;
+	height: 600px;
+	background: red; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(left top, #FCEB6F, #FEDE60); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(bottom right, #FCEB6F, #FEDE60); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(bottom right, #FCEB6F, #FEDE60); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to bottom right, #FCEB6F, #FEDE60); /* Standard syntax */
+}
+
+.logo {
+	margin-top: 25px;
+}
+
+.mainMenu {
+    text-align: right;
+    margin-top: 35px;
+}
+
+.mainMenu li, .mainMenuReverse li {
+	list-style: none;
+    display: inline-block;
+    margin-left: 29px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.mainMenuReverse {
+	text-align: center;
+	margin-top: 35px;
+}
+
+.mainMenuReverse li {
+	color: #fff;
+}
+
+.mainMenuReverse li:first-child {
+	margin-left: 0 !important;
+}
+
+.imgHeaderContainer {
+	position: absolute !important;
+    bottom: 80px !important;
+    right: 0 !important;
+}
+
+.imgHeaderContainer > img {
+	height: 470px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.heroTextContainer {
+	margin-top: 100px;
+}
+
+.heroTextContainer h1 {
+	font-weight: normal !important;
+	margin-bottom: 40px; 
+	font-size: 33px;
+}
+
+.heroTextContainer p {
+	font-size: 17px;
+}
+
+.containerButtonsHeader {
+	padding-left: 0 !important;
+	margin-top: 30px;
+}
+
+.containerButtonsHeader img, .containerButtonsWhite img {
+	width: 200px;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.containerButtonsHeader img:first-child, .containerButtonsWhite img:first-child {
+	margin-right: 20px;
+}
+
+section {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.sectionTitle {
+	text-align: center;
+	font-weight: normal !important;
+	margin-bottom: 60px;
+}
+
+.how_it_works_single {
+	height: 300px;
+	text-align: center;
+}
+
+.how_it_works_single > img {
+	height: 200px;
+}
+
+.containerButtonsWhite {
+	text-align: center;
+}
+
+.section2 {
+	background-color: #f8f8f8; 
+	height: 620px; 
+	background-image: url(../img/barra_yellow.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: 200px;
+}
+
+.contentSection2 {
+	margin-top: 130px;
+}
+
+.section3 p {
+	width: 500px;
+    text-align: center;
+    display: block;
+    margin: 0 auto 30px auto;
+}
+
+.contentSection2 h1, .contentSection2 h3 {
+	font-weight: normal !important;
+}
+
+.contentSection2 h3  {
+	margin-top: 0;
+	color: #7A7A7A;
+    margin-bottom: 30px;
+}
+
+input[type=text] {
+	-webkit-box-shadow: 0px 1px 37px -8px rgba(0,0,0,0.38);
+	-moz-box-shadow: 0px 1px 37px -8px rgba(0,0,0,0.38);
+	box-shadow: 0px 1px 37px -8px rgba(0,0,0,0.38);
+	height: 50px;
+	border-radius: 0;
+	border: none;
+}
+
+#sendFormulario {
+	display: block;
+    background: -webkit-linear-gradient(left top, #FCEB6F, #FEDE60); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(bottom right, #FCEB6F, #FEDE60); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(bottom right, #FCEB6F, #FEDE60); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to bottom right, #FCEB6F, #FEDE60); /* Standard syntax */
+    text-align: center;
+    padding: 14px;
+    color: #fff;
+    text-transform: uppercase;
+    transition: all 1s linear;
+    -webkit-box-shadow: 0px 1px 37px -8px rgba(244,214,58,1);
+	-moz-box-shadow: 0px 1px 37px -8px rgba(244,214,58,1);
+	box-shadow: 0px 1px 37px -8px rgba(244,214,58,1);
+}
+
+#sendFormulario:hover {
+	text-decoration: none;
+}
+
+small {
+	color: #8F8F8F;
+}
+
+
+
+
+
+
+
+
